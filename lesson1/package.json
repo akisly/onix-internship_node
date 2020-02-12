@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "httpServer": "node http/server.js",
+    "httpClient": "node http/client.js",
     "netServer": "node net/server.js",
     "netClient": "node net/client.js",
     "udpServer": "node udp/server.js",
