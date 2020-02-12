@@ -6,5 +6,5 @@ const descOrder = arr.sort((a, b) => b - a);
 console.log(descOrder); // output: [6, 5, 4, 3, 2, 1]
 
 // sort in ascending order
-const ascOrder = alpha.sort((a, b) => a > b ? 0 : 1);
+const ascOrder = alpha.sort((a, b) => a > b ? 1 : -1);
 console.log(ascOrder); // output: ['a', 'c', 'e', 'u', 'y']
